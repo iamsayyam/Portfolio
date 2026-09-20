@@ -3,7 +3,7 @@
 export type SocialKey = "github" | "linkedin" | "codepen" | "instagram";
 
 export const site = {
-  name: "Alex Morgan",
+  name: "Muhammad Sayyam Sharif",
   role: "Frontend Engineer",
   tagline: "I build accessible, pixel-perfect experiences for the web.",
   description:
@@ -18,7 +18,7 @@ export const site = {
   ],
 
   social: [
-    { name: "GitHub", href: "https://github.com/", icon: "github" },
+    { name: "GitHub", href: "https://github.com/iamsayyam", icon: "github" },
     { name: "LinkedIn", href: "https://www.linkedin.com/", icon: "linkedin" },
     { name: "CodePen", href: "https://codepen.io/", icon: "codepen" },
     { name: "Instagram", href: "https://instagram.com/", icon: "instagram" },
