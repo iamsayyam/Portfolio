@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Inter is self-hosted through @fontsource-variable/inter (imported in layout.tsx) */
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Extra variants used in the components */
+@custom-variant short (@media (max-height: 720px));
+@custom-variant coarse (@media (pointer: coarse));
+
+@layer base {
+  html {
+    overflow-x: clip;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-teal-300);
+    outline-offset: 4px;
+    border-radius: 2px;
+  }
+}
