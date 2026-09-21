@@ -4,8 +4,8 @@ export function Footer() {
   return (
     <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
       <p>
-        Layout inspired by{" "}
-        <InlineLink href="https://brittanychiang.com/">brittanychiang.com</InlineLink>.
+        Layout Build by{" "}
+        <InlineLink href="https://sayyamsharif.com/">sayyamsharif.com</InlineLink>.
         Built with <InlineLink href="https://nextjs.org/">Next.js</InlineLink> and{" "}
         <InlineLink href="https://tailwindcss.com/">Tailwind CSS</InlineLink>,
         deployed with <InlineLink href="https://vercel.com/">Vercel</InlineLink>.
