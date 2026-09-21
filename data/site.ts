@@ -4,7 +4,7 @@ export type SocialKey = "github" | "linkedin" | "codepen" | "instagram";
 
 export const site = {
   name: "Muhammad Sayyam Sharif",
-  role: "Frontend Engineer",
+  role: "Full-stack Developer",
   tagline: "I build accessible, pixel-perfect experiences for the web.",
   description:
     "Alex Morgan is a frontend engineer who builds accessible, pixel-perfect experiences for the web.",
