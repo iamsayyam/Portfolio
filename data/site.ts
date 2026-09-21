@@ -19,9 +19,9 @@ export const site = {
 
   social: [
     { name: "GitHub", href: "https://github.com/iamsayyam", icon: "github" },
-    { name: "LinkedIn", href: "https://www.linkedin.com/", icon: "linkedin" },
-    { name: "CodePen", href: "https://codepen.io/", icon: "codepen" },
-    { name: "Instagram", href: "https://instagram.com/", icon: "instagram" },
+    { name: "LinkedIn", href: "https://pk.linkedin.com/in/muhammad-sayyam-sharif-b8898b364", icon: "linkedin" },
+    { name: "CodePen", href: "https://codepen.io/iamsayyam", icon: "codepen" },
+    { name: "Instagram", href: "https://www.instagram.com/sayyam.official", icon: "instagram" },
   ] satisfies { name: string; href: string; icon: SocialKey }[],
 
   // Put your résumé at public/resume.pdf
